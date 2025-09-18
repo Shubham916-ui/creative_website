@@ -1,16 +1,17 @@
 import React from "react";
 import Video from "../components/home/Video";
-import Homeherotext from "../components/home/Homeherotext";
-
+import HomeHeroText from "../components/home/HomeHeroText";
+import HomeBottomText from "../components/home/homebottomtext";
 
 
 const Home = () => (
   <div>
     <div className="h-screen w-screen fixed bg-red">
-      <Video/>
+      <Video />
     </div>
-    <div className="h-screen w-screen relative">
-      <Homeherotext/>
+    <div className=" h-screen w-screen relative">
+      <HomeHeroText/>
+      <HomeBottomText/>
 
     </div>
   </div>

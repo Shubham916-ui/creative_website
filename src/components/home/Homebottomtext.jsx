@@ -1,9 +1,9 @@
 import React from 'react'
 
-const homebottomtext = () => {
+const HomeBottomText = () => {
   return (
-    <div>homebottomtext</div>
+    <div>HomeBottomtext</div>
   )
 }
 
-export default homebottomtext
+export default HomeBottomText
